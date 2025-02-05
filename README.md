@@ -27,6 +27,10 @@ When running `nuxt build`, it will pre-render all the links it can find by follo
 > [!IMPORTANT]
 > On Vercel & Netlify, please note that if you hit a 404 page (ex: https://content-v3-demo.vercel.app/404), Nuxt content v3 will try to load the SQLite database, throwing a `Failed to execute SQL ...: unable to open database file` on the server.
 
+## NuxtHub
+
+If you don't want to use pre-rendering but keep having a zero-config experience and serverless hosting, checkout this demo: https://github.com/atinux/nuxthub-content-v3
+
 ## Setup
 
 Make sure to install dependencies:
