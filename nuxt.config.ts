@@ -8,11 +8,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-04-03',
-  // Pre-render all pages
-  nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true
-    }
-  }
+  routeRules: {
+    '/**': { isr: true },
+  },
 })
